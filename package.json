@@ -1,6 +1,8 @@
 {
   "name": "@luca.bottoni/easy-console-log",
-  "version": "1.0.1",
+  "version": "1.0.2",
+  "homepage": "https://github.com/lbottoni/easy-console-log",
+  "keywords": ["console","log","message"],
   "description": "easy console log message",
   "main": "build/lib/index.js",
   "type": "module",
