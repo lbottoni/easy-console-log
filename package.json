@@ -2,7 +2,7 @@
   "name": "easy-console-log",
   "version": "1.0.0",
   "description": "easy console log message",
-  "main": "build/index.js",
+  "main": "build/lib/index.js",
   "type": "module",
   "scripts": {
     "test": "node build/index.js",
