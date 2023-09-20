@@ -1,5 +1,5 @@
 {
-  "name": "easy-console-log",
+  "name": "easy-consoleLog",
   "version": "1.0.0",
   "description": "easy console log message",
   "main": "build/lib/index.js",
