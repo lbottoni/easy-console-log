@@ -1,6 +1,6 @@
 {
-  "name": "easy-console-log",
-  "version": "1.0.0",
+  "name": "@luca.bottoni/easy-console-log",
+  "version": "1.0.1",
   "description": "easy console log message",
   "main": "build/lib/index.js",
   "type": "module",

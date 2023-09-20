@@ -20,14 +20,36 @@ class EasyMessage {
         if(blocked){process.exit(0);}
     }
 }
+
+/**
+ * print a Info message
+ *
+ * @param message string
+ * @param blocked boolean, default false
+ * @return EasyMessage instance
+ */
 export const Info = (message = null, blocked = false) => {
   new EasyMessage(message, blocked, 'info');
 };
 
+/**
+ * print a Success message
+ *
+ * @param message string
+ * @param blocked boolean, default false
+ * @return EasyMessage instance
+ */
 export const Success = (message = null, blocked = false) => {
   new EasyMessage(message, blocked, 'success');
 };
 
+/**
+ * print a Error message
+ *
+ * @param message string
+ * @param blocked boolean, default true
+ * @return EasyMessage instance
+ */
 export const Err = (message = null, blocked = true) => {
   new EasyMessage(message, blocked);
 };
